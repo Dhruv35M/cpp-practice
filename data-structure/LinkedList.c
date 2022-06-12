@@ -3,13 +3,13 @@
 #include <stdlib.h>
 
 struct LinkedList {
-    __int32 data;
-    struct LinkedList *next;
+  __int32 data;
+  struct LinkedList *next;
 };
 
 typedef struct LinkedList LinkedList;
 
 int main(int argc, char const *argv[]) {
-    printf("Hello, World -- Welcome to LinkedList!\n");
-    return 0;
+  printf("Hello, World -- Welcome to LinkedList!\n");
+  return 0;
 }
