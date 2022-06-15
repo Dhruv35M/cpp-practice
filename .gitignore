@@ -3,4 +3,7 @@
 *.out
 
 # Editor files
-.vscode
+.vscode/
+
+# Directories to be excluded
+hello-world/
