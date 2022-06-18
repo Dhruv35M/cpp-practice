@@ -5,7 +5,7 @@ bool is_prime(int num) {
     if (num == 1 || num == 2) return true;
 
     for (int t = 2; t * t < num; t++)
-	if (num % t == 0) return false;
+        if (num % t == 0) return false;
 
     return true;
 }
